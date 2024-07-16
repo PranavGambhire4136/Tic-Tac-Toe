@@ -1,0 +1,75 @@
+* {
+    background-color: aqua;
+}
+
+
+h1 {
+    background-color: rgb(32, 206, 206);
+}
+
+.players {
+    text-align: center;
+}
+
+.items {
+    background-color: red;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.game {
+    background-color: green;
+    display: grid;
+    width: 50vh;
+    height: 50vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3px;
+    
+}
+
+h2 {
+    background-color: violet;
+    margin-top: 1vh;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 10vh;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.hovered {
+    background-color: rgb(95, 28, 28);
+}
+
+
+.hideSub {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    text-align: center;
+    height: 50vh;
+    width: 50vh;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    background-color: green;
+}
+
+button {
+    font-size: 30px;
+    background-color: rgb(188, 235, 188);
+}
+
+.hide {
+    display: none;
+}
+
+.hoveredButton {
+    background-color: rgb(193, 145, 238);
+}
